@@ -19,6 +19,7 @@ struct Person {
     characteristics: String,
 }
 
+
 #[derive(Serialize)]
 struct SearchResponse {
     results: Vec<Person>,
